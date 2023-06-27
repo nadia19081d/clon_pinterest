@@ -13,6 +13,8 @@ header{
     margin-bottom: 20px;
     
 }
+
+
 #pinterest-icon{
     height: 45px;
     width: 45px;
@@ -112,6 +114,16 @@ header .main-input .search-icon {
     width: 18px;
     height: 18px;
 }
+#arrow{
+    background-image: url('https://img.icons8.com/?size=1x&id=37218&format=png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+}
 main{
     display: flex;
     justify-content: space-between;
@@ -134,4 +146,9 @@ main div .card-image img{
    transition: all 0.6s ease;
    filter: brightness(30%);
    cursor: crosshair; 
+}
+@media (max-width:600px) {
+    .hide{
+        display: none;
+    }
 }
