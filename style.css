@@ -16,11 +16,11 @@ header{
 
 
 #pinterest-icon{
-    height: 45px;
-    width: 45px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     align-content: center;
-    margin-top: 10px;
+    margin-top: 18px;
     margin-right: -20px;
 }
 
@@ -39,8 +39,8 @@ header ul li {
     
 }
 header img {
-    height: 45px;
-    width: 45px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
 }
 
@@ -50,8 +50,8 @@ nav ul #notifications{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
 }
 
@@ -62,8 +62,8 @@ nav ul #message{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
 }
 .left-side{
@@ -151,4 +151,7 @@ main div .card-image img{
     .hide{
         display: none;
     }
+}
+nav{
+    margin-top: 5px;
 }
