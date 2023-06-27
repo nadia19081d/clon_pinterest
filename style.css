@@ -122,7 +122,11 @@ header .main-input .search-icon {
     width: 20px;
     height: 20px;
     cursor: pointer;
+    
 
+}
+nav #arrow{
+    margin-bottom: 5px;
 }
 main{
     display: flex;
